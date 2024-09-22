@@ -1,0 +1,36 @@
+
+.navbar {
+  background-color: #007bff !important; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #fff !important; 
+}
+
+
+.nav-link {
+  color: #fff !important; 
+  font-size: 1.1rem; 
+  margin-right: 15px; 
+}
+
+
+.nav-link:hover {
+  color: #ffd700 !important; 
+}
+
+
+.btn-outline-light {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffd700 !important; 
+  border-color: #ffd700 !important;
+  color: #000 !important;
+}

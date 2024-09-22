@@ -1,0 +1,56 @@
+.consulta-alumnos {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consulta-alumnos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .consulta-alumnos .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .consulta-alumnos .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .consulta-alumnos .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .consulta-alumnos .button-group {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .consulta-alumnos .button-group button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consulta-alumnos .button-group button.buscar {
+    background-color: #007bff;
+  }
+  
+  .consulta-alumnos .button-group button.limpiar {
+    background-color: #6c757d;
+  }
+  
+  .consulta-alumnos .button-group button.cancelar {
+    background-color: #dc3545;
+  }
+  
