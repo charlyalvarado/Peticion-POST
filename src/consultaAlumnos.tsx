@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './consultaAlumnos.css'; // Importar el archivo CSS
+import './consultaAlumnos.css'; 
 
 const ConsultaAlumnos = () => {
   const [carnet, setCarnet] = useState('');
@@ -8,7 +8,7 @@ const ConsultaAlumnos = () => {
   const [seccion, setSeccion] = useState('');
 
   const handleBuscar = async () => {
-    console.log('Buscando estudiante con carnet:', carnet); // Depuración
+    console.log('Buscando estudiante con carnet:', carnet); 
     try {
       const response = await fetch(`https://test-deploy-12.onrender.com/estudiantes/${carnet}`);
       if (!response.ok) {

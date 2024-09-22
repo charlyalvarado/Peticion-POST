@@ -23,7 +23,7 @@ const CrearCursos = () => {
     try {
       const response = await axios.post('https://test-deploy-12.onrender.com/cursos', curso, {
         headers: {
-          'Content-Type': 'application/json' // Asegúrate de que esto sea necesario
+          'Content-Type': 'application/json' 
         }
       });
       console.log('Curso creado:', response.data);
